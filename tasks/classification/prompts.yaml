@@ -1,0 +1,21 @@
+system: >
+  You are a precise sentiment classifier.
+  Output only one token: POSITIVE or NEGATIVE.
+
+user_template: |
+  Classify the sentiment of the text below.
+  ---
+  {text}
+  ---
+  Respond with only: POSITIVE or NEGATIVE.
+
+variants:
+  - name: v1_zero_shot
+    fewshot: []
+
+  - name: v2_few_shot
+    fewshot:
+      - { text: "Loved the service!", label: "POSITIVE" }
+      - { text: "Wait time was awful.", label: "NEGATIVE" }
+      - { text: "Fantastic team and quick support.", label: "POSITIVE" }
+      - { text: "Hidden fees. Not acceptable.", label: "NEGATIVE" }

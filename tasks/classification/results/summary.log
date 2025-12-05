@@ -1,0 +1,2 @@
+v1_zero_shot: {'n': 5, 'acc': np.float64(1.0), 'latency_s_avg': np.float64(1.361), 'cost_total_usd': np.float64(0.0)}
+v2_few_shot: {'n': 5, 'acc': np.float64(1.0), 'latency_s_avg': np.float64(1.1062), 'cost_total_usd': np.float64(0.0)}

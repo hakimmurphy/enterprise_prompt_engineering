@@ -1,0 +1,14 @@
+RAW OUTPUT for 'Loved the service and the staff!': POSITIVE
+RAW OUTPUT for 'Awful wait time and cold food.': NEGATIVE
+RAW OUTPUT for 'Great value for the price.': POSITIVE
+RAW OUTPUT for 'I will never return.': NEGATIVE
+RAW OUTPUT for 'Fantastic ambiance and friendly team.': POSITIVE
+[v1_zero_shot] saved -> /Users/hakimmurphy/Documents/Masterschool/Enterprise Prompt-Engineering Portfolio/tasks/classification/results/v1_zero_shot.csv
+Summary: {'n': 5, 'acc': np.float64(1.0), 'latency_s_avg': np.float64(1.361), 'cost_total_usd': np.float64(0.0)}
+RAW OUTPUT for 'Loved the service and the staff!': POSITIVE
+RAW OUTPUT for 'Awful wait time and cold food.': NEGATIVE
+RAW OUTPUT for 'Great value for the price.': POSITIVE
+RAW OUTPUT for 'I will never return.': NEGATIVE
+RAW OUTPUT for 'Fantastic ambiance and friendly team.': POSITIVE
+[v2_few_shot] saved -> /Users/hakimmurphy/Documents/Masterschool/Enterprise Prompt-Engineering Portfolio/tasks/classification/results/v2_few_shot.csv
+Summary: {'n': 5, 'acc': np.float64(1.0), 'latency_s_avg': np.float64(1.1062), 'cost_total_usd': np.float64(0.0)}
