@@ -88,5 +88,5 @@ def index():
     return render_template('index.html', raw_result=raw_result, result_class=result_class, year=year)
 
 if __name__ == '__main__':
-    # Use development mode when running locally
-    app.run(host='0.0.0.0', port=5050, debug=True)
+    # Use production mode for Heroku
+    app.run(host='0.0.0.0', port=5050, debug=False)
