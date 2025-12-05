@@ -3,7 +3,7 @@
 
 Production-ready prompt engineering portfolio featuring sentiment classification with Google Gemini, a modern Flask web interface, automated evaluation, and Docker deployment.
 
-## Project Overview
+## 🚀 Project Overview
 This project demonstrates prompt engineering and evaluation using Google Gemini LLM for sentiment classification. It features:
 
 - Zero-shot and few-shot prompt variants
@@ -11,7 +11,7 @@ This project demonstrates prompt engineering and evaluation using Google Gemini 
 - Logging and reproducibility for robust experimentation
 - A modern Flask web interface with Bootstrap for user-friendly sentiment classification
 
-## Setup Instructions
+## 🛠️ Setup Instructions
 
 1. **Clone the repository**
 2. **Install dependencies:**
@@ -28,7 +28,7 @@ This project demonstrates prompt engineering and evaluation using Google Gemini 
    ```
    Then visit [http://localhost:5050](http://localhost:5050) in your browser.
 
-## Docker Setup
+## 🐳 Docker Setup
 
 You can run the app in a Docker container:
 
@@ -37,7 +37,7 @@ docker build -t sentiment-app .
 docker run -p 5050:5050 sentiment-app
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 - `app.py`: Flask web app for interactive sentiment classification
 - `templates/index.html`: Jinja2 template with Bootstrap styling
@@ -48,7 +48,7 @@ docker run -p 5050:5050 sentiment-app
 - `ablations/compare.py`: Compare results between variants
 - `Dockerfile`: Container setup for deployment
 
-## Sample Results
+## 📊 Sample Results
 
 Example output from the web app and logs:
 ```
@@ -59,20 +59,20 @@ RAW OUTPUT for 'Awful wait time and cold food.': NEGATIVE
 Summary: {'n': 5, 'acc': 1.0, 'latency_s_avg': 0.805, 'cost_total_usd': 0.0}
 ```
 
-## Performance Analysis
+## 📈 Performance Analysis
 
 - **Accuracy:** High accuracy (1.0) indicates the model correctly classifies sentiment for all examples.
 - **Latency:** Average latency per prediction is logged for each variant.
 - **Cost:** Cost is tracked (if applicable) for each run.
 
-## Customization
+## 🎨 Customization
 
 - Modify `prompts.yaml` to experiment with different prompt styles or few-shot examples.
 - Add more data to `dataset.jsonl` for broader evaluation.
 - Use `ablations/compare.py` to compare different model variants.
 - Edit `templates/index.html` for UI changes (Bootstrap supported).
 
-## Deployment Options
+## 🚢 Deployment Options
 
 You cannot host Flask apps on GitHub Pages. For free hosting, use:
 
@@ -93,8 +93,15 @@ Small, reproducible examples of **prompt design + evaluation**:
 - Variants: zero-shot vs few-shot with clear, measured **ACC / latency / cost**
 - Ablations: show exactly what changed and why it helped
 
-## How to run
+## ▶️ How to run
 ```bash
 pip install -r requirements.txt
 python tasks/classification/run.py
 python ablations/compare.py
+```
+
+## 📄 License 
+MIT
+
+## 👤 Author
+Hakim Murphy
